@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart
+-I.\RTE\_Target_1
+-IC:\Users\Gavin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-I"D:\keil MDK5\ARM\CMSIS\Include"
+-D__UVISION_VERSION="529" -DSTM32F10X_HD -DSTM32F10X_HD
+-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d "test.c"
